@@ -28,6 +28,4 @@ fun main(){
             print(-1)
         println()
     }
-
-
 }
