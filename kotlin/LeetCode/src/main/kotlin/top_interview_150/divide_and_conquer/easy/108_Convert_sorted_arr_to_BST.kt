@@ -11,10 +11,6 @@ package top_interview_150.divide_and_conquer.easy
  * }
  */
 class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
-}
-class Solution {
     fun sortedArrayToBST(nums: IntArray): TreeNode? {
         return recursiveTransformation(nums)
     }
@@ -27,5 +23,9 @@ class Solution {
             curRoot.right = recursiveTransformation(nums.copyOfRange(nums.size / 2 + 1, nums.size))
         }
         return curRoot
-    }
+    }    var left: TreeNode? = null
+    var right: TreeNode? = null
+}
+class Solution {
+
 }
