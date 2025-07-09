@@ -10,8 +10,9 @@ package top_interview_150.linked_list.easy
  * }
  */
 // идиотская задачка с идиотским условием
+/*
 class Solution {
     fun hasCycle(head: ListNode?): Boolean {
 
     }
-}
+}*/
