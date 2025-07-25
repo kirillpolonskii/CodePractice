@@ -1,6 +1,6 @@
 package top_interview_150.array_string.easy
 
-class Solution {
+private class Solution {
 
     fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int): Unit {
         val ans = IntArray(n + m)
