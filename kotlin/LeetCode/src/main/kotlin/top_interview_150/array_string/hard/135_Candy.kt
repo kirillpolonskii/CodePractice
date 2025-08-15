@@ -10,7 +10,6 @@ class Solution135 {
             }
             println(candies.joinToString())
         }
-
         for (i in n-1 downTo 0) {
             if (i < n - 1 && ratings[i] > ratings[i + 1]) {
                 candies[i] = kotlin.math.max(candies[i], candies[i + 1] + 1)
