@@ -1,4 +1,6 @@
-package top_interview_150.multidim_dp.medium
+package top_interview_150.dp_multid.medium
+
+import kotlin.math.min
 
 class Solution120 {
     fun minimumTotal(triangle: List<List<Int>>): Int {
@@ -10,7 +12,7 @@ class Solution120 {
             curLayer[0] = triangle[i][0] + prevLayer[0]
             for (j in 1..<triangle[i].size - 1){
                 curLayer[j] =
-                    kotlin.math.min(
+                    min(
                         triangle[i][j] + prevLayer[j - 1],
                         triangle[i][j] + prevLayer[j])
 
