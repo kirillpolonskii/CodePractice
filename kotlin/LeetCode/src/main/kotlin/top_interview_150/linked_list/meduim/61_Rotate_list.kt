@@ -12,7 +12,7 @@ package top_interview_150.linked_list.meduim
 class ListNode61(var `val`: Int) {
     var next: ListNode61? = null
 }
-class Solution {
+class Solution61 {
     fun rotateRight(head: ListNode61?, k: Int): ListNode61? {
         if (head == null || head.next == null) return head
         val listAsArr = mutableListOf<Int>()
