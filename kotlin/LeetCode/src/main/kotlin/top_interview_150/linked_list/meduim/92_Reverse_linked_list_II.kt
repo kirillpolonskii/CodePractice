@@ -11,7 +11,7 @@ class Solution92 {
         val firstHalfOfList = mutableListOf<ListNode92>()
         var curInd = 1
         val middleInd = (right + left) / 2
-        var curNode = head
+            var curNode = head
         while (curInd < left){
             curNode = curNode!!.next
             ++curInd
